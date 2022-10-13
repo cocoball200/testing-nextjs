@@ -18,7 +18,8 @@ test("reservation page shows sold out message ", async () => {
   expect(soldOutMessage).toBeInTheDocument();
 
   const purchaseButton = screen.getByRole("button", {
-    name: /purchase/i
+    name: /purchase/i,
   });
+
   expect(purchaseButton).not.toBeInTheDocument();
 }) 
