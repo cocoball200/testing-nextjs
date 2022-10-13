@@ -1,5 +1,4 @@
 import { render, screen } from "@testing-library/react";
-
 import { Reservation } from "@/components/reservations/Reservation";
 
 test("reservation page show correct number of availale seats", async () => {
